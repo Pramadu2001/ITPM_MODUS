@@ -22,8 +22,8 @@ function Review() {
 
           {/* Description */}
           <p className="text-base text-black/50 mt-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, numquam.
-          </p>
+  Discover how our tailored learning paths and expert guidance help students achieve their goals with confidence and ease.
+</p>
 
           {/* Info */}
           <div className="flex items-center space-x-10 mt-8">

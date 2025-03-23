@@ -42,9 +42,9 @@ function Slider() {
       responsive={responsive}
       itemClass="item"
     >
-      <SliderCard image="/images/r1.jpg" name="Jastica Doe" role="Web Developer" />
-      <SliderCard image="/images/r2.jpg" name="John Doe" role="Next.js Developer" />
-      <SliderCard image="/images/r3.jpg" name="Jones Doe" role="MERN Developer" />
+      <SliderCard image="/images/r1.jpg" name="Jastica Doe" role="frontend Developer" />
+      <SliderCard image="/images/r2.jpg" name="jeen adam" role="Devops Engineer" />
+      <SliderCard image="/images/r3.jpg" name="Jones Doe" role="Mobile Application Developer" />
     </Carousel>
   );
 }
