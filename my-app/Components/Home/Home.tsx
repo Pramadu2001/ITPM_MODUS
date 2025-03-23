@@ -9,6 +9,7 @@ import Review from './Review/Review'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Aos from 'aos';
+import ChatWidget from '../Novelty/ChatWidget';
 
 const Home = () => {
   useEffect(()=>{
@@ -31,6 +32,7 @@ const Home = () => {
       <About/>
       <Course/>
       <Review/>
+      <ChatWidget/>
     </div>
   )
 }
