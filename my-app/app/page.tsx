@@ -1,12 +1,13 @@
-import Home from '@/Components/Home/Home'
-import React from 'react'
+"use client";
+import Home from '@/Components/Home/Home';
+import React, { FC } from 'react';
 
-function HomePage() {
+const Page: FC = () => {
   return (
     <div>
-      <Home/>
+      <Home />
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default Page;
