@@ -1,0 +1,51 @@
+@import "tailwindcss";
+ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav__link {
+        @apply relative text-xl w-fit block font-semibold text-white transition-all duration-300 
+        after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[3px] after:w-full 
+        after:bg-yellow-400 after:scale-x-0 after:transition-transform after:duration-300 
+        after:origin-left hover:after:scale-x-100;
+    }
+    
+
+    .Button__Class {
+        @apply md:px-12 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg
+    }
+
+    .footer__heading{
+        @apply text-lg text-white font-bold mb-4
+    }
+
+    .footer__link {
+        @apply text-sm text-white opacity-60 hover:text-green-700 cursor-pointer mb-3 w-fit;
+      }  
+      
+      /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
+
+    
+    @keyframes shake {
+            0% { transform: translateX(0); }
+            20% { transform: translateX(-2px); }
+            40% { transform: translateX(2px); }
+            60% { transform: translateX(-2px); }
+            80% { transform: translateX(2px); }
+            100% { transform: translateX(0); }
+          }
+          
+    .shake {
+            animation: shake 0.5s ease-in-out;
+          }
+        
+}
+
+
