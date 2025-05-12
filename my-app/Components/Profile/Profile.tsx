@@ -7,6 +7,7 @@ import { signOut } from 'next-auth/react';
 import ProfileInfo from './Profileinfo';
 import ChangePassword from "./ChangePassword"
 
+
 type Props = {
     user:any;
 };

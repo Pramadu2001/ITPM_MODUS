@@ -43,7 +43,7 @@ const ChangePassword:FC<Props> = (props) => {
                     className='flex flex-col items-center'>
 
                         <div className='w-[100%] 800px:w-[60%] mt-5'>
-                            <label className='block pb-2  text-black dark:text-[#fff]'>Enter your old password</label>
+                            <label className='block pb-2  text-black dark:text-[#fff]'>Enter your old password :</label>
                             <input
                                 type="password"
                                 className={`${styles.input} !w-[95%] mb-4 800px:mb-0  text-black dark:text-[#fff]`}
@@ -53,7 +53,7 @@ const ChangePassword:FC<Props> = (props) => {
                         </div>
 
                         <div className='w-[100%] 800px:w-[60%] mt-2'>
-                            <label className='block pb-2  text-black dark:text-[#fff]'>Enter your new Password</label>
+                            <label className='block pb-2  text-black dark:text-[#fff]'>Enter your new Password :</label>
                             <input  
                                 type="password"
                                 className={`${styles.input} !w-[95%] mb-4 800px:mb-0  text-black dark:text-[#fff]`}
@@ -63,7 +63,7 @@ const ChangePassword:FC<Props> = (props) => {
                         </div>
 
                         <div className='w-[100%] 800px:w-[60%] mt-2'>
-                            <label className='block pb-2  text-black dark:text-[#fff]'>Enter your Confirm Password</label>
+                            <label className='block pb-2  text-black dark:text-[#fff]'>Enter your Confirm Password :</label>
                             <input  
                                 type="password"
                                 className={`${styles.input} !w-[95%] mb-4 800px:mb-0  text-black dark:text-[#fff]`}
